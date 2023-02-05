@@ -78,7 +78,7 @@ theme_mode:   # [light|dark]
 # will be added to all image (site avatar & posts' images) paths starting with '/'
 #
 # e.g. 'https://cdn.com'
-img_cdn: 'https://github.com/Aapcer/Aapcer.github.io/raw/master/img'
+img_cdn: 'https://gitee.com/aapcer/Aapcer.github.io/raw/master/img'
 
 # the avatar on sidebar, support local or CORS resources
 avatar: '/commons/avatar.jpg'
