@@ -354,37 +354,37 @@ int main(){
 
 ### 构造FAKE_IO_FILE结构体
 
-![image-20230324153629127](img/image-20230324153629127.png)
+![image-20230324153629127](/post/20230324/image-20230324153629127.png)
 
 ### 构造printf_buffer_obstack
 
-![image-20230324153721099](img/image-20230324153721099.png)
+![image-20230324153721099](/post/20230324/image-20230324153721099.png)
 
 ### 进入__printf_buffer_as_file_overflow函数
 
-![image-20230324153809456](img/image-20230324153809456.png)
+![image-20230324153809456](/post/20230324/image-20230324153809456.png)
 
 ### __printf_buffer_as_file_commit函数assert校验
 
-![image-20230324153851142](img/image-20230324153851142.png)
+![image-20230324153851142](/post/20230324/image-20230324153851142.png)
 
 ### 进入前IF语句中的校验
 
-![image-20230324154619731](img/image-20230324154619731.png)
+![image-20230324154619731](/post/20230324/image-20230324154619731.png)
 
 ### 进入__printf_buffer_flush 函数
 
-![image-20230324153949516](img/image-20230324153949516.png)
+![image-20230324153949516](/post/20230324/image-20230324153949516.png)
 
 这里可以看到上一句就是和0xb进行比较，也就是buffer的mode
 
 ### 进入__printf_buffer_flush_obstack函数
 
-![image-20230324154042790](img/image-20230324154042790.png)
+![image-20230324154042790](/post/20230324/image-20230324154042790.png)
 
 ### 进入**_obstack_newchunk函数**
 
-![image-20230324154146028](img/image-20230324154146028.png)
+![image-20230324154146028](/post/20230324/image-20230324154146028.png)
 
 后面就不跟了，和琴瑟琵琶差不多
 
